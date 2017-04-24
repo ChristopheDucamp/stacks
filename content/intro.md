@@ -6,4 +6,4 @@ draft = false
 
 {{< figure class="image main" src="/images/pic01.jpg" >}}
 
-on enleve les lorem ipsum
+on enleve les lorem ipsum dolor
