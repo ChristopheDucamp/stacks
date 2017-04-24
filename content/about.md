@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "À PROPOS"  
 weight = 30
 draft = false
 +++
