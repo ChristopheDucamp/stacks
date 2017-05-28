@@ -1,37 +1,55 @@
 +++
-title = "Elements"
+title = "clients"
 weight = 50
-draft = true
+draft = false
 +++
 
-<h3 class="major">Hugo shortcodes in theme</h3>
+<h3 class="major">Ils nous ont fait confiance</h3>
 
-<code>{&zwnj;{< socialLinks >}}</code> will get into {{< socialLinks >}} configured in <code>config.toml</code>.
+- B&You : 
+	- redressement d'outils de production
+	- coords structuration de filières de production pour boite production
+	- coords structuration outils de production avec des free-lances
+- Vinci Concessions : 
+	- développement d'actifs stratégiques au delà de son coeur de métier
+	- rupture qui permet de remettre dans la course des grands une grande société qui risquait d'être exclue du marché
+- Crédit Agricole 
+	- Ouverture d'API bancaire : plate-forme de co-création d’applications bancaires entre clients et entreprises numériques.
+- Groupement ostréiculteurs 
+	- intermédiaire à facilitateur / valorisation et sélection de leur production
 
-<code>{&zwnj;{< gmaps  pb="\<sharecode\>" >}}</code> will get a google map 
-{{< gmaps pb="!1m18!1m12!1m3!1d86456.59681285016!2d8.466675323953403!3d47.377433669132884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900b9749bea219%3A0xe66e8df1e71fdc03!2zWsO8cmljaA!5e0!3m2!1sde!2sch!4v1488248947910" >}}
 
-To get the pb parameter value, search the desired place on google maps and click the share button and copy/paste the pb parameter out of the iframe code.
 
-<h3 class="major">Text</h3>
+
+<h3 class="major">Racourcis Hugo dans le Thème</h3>
+<code>{&zwnj;{< socialLinks >}}</code> ira dans les {{< socialLinks >}} configurés dans <code>config.toml</code>.
+
+<code>{&zwnj;{< gmaps  pb="\<sharecode\>" >}}</code> recevra une carte google
+{{< gmaps pb="!1m18!1m12!1m3!1d326.7348340274352!2d2.143349870980376!3d49.06994087714178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20ba8834a485f1f7!2sBarbara+Billoud+C%C3%A9ramiste!5e0!3m2!1sfr!2sfr!4v1495705053861" >}}
+
+
+Pour faire fonctionner la valeur du paramètre pb, cherchez la place voulue sur google maps et cliquez sur le bouton partager puis copiez-collez le paramètre pb en dehors du code iframe.
+
+<h3 class="major">Texte</h3>
 
 This is **bold** and this is __strong__. This is *italic* and this is _emphasized_.
 This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. 
+This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
 Finally, [this is a link to a markdown cheatsheet](https://beegit.com/markdown-cheat-sheet).
 
 > Not all markdown syntax is allowed but you can mix most html tags into the markdown text.
 
 ---
-## Heading Level 2
-### Heading Level 3
-#### Heading Level 4
-##### Heading Level 5
-###### Heading Level 6
+## Titre Niveau 2
+### Titre Niveau 3
+#### Titre Niveau 4
+##### Titre Niveau 5
+###### Titre Niveau 6
 ---
 
-#### Blockquote
-> Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
+#### Innovation Ouverte 
+
+> (...) une manière globale de penser la stratégie d’innovation de l’entreprise, comme ouverte aux apports externes et structurée par des flux de connaissance entrants et sortants. Cette approche renouvelée de l’innovation, attentive à l’inattendu, ouvre l’entreprise sur l’extérieur et décloisonne les processus linéaires de création de valeur pour en multiplier l’efficacité. [entreprise.gouv.fr](http://www.entreprises.gouv.fr/innovation-ouverte)
 
 #### Preformatted
 
@@ -45,14 +63,14 @@ Finally, [this is a link to a markdown cheatsheet](https://beegit.com/markdown-c
 
     print 'It took ' + i + ' iterations to sort the deck.';
 
-<h3 class="major">Lists</h3>
+<h3 class="major">Listes</h3>
 
-#### Unordered
+#### Non ordonnée
 * Dolor pulvinar etiam.
 * Sagittis adipiscing.
 * Felis enim feugiat.
 
-#### Ordered
+#### Ordonnée
 1. Dolor pulvinar etiam.
 2. Etiam vel felis viverra.
 3. Felis enim feugiat.
@@ -60,7 +78,7 @@ Finally, [this is a link to a markdown cheatsheet](https://beegit.com/markdown-c
 5. Etiam vel felis lorem.
 6. Felis enim et feugiat.
 
-#### Icons
+#### Icônes sociales 
 <ul class="icons">
 	<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 	<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -71,35 +89,35 @@ Finally, [this is a link to a markdown cheatsheet](https://beegit.com/markdown-c
 
 #### Actions
 <ul class="actions">
-	<li><a href="#" class="button special">Default</a></li>
-	<li><a href="#" class="button">Default</a></li>
+	<li><a href="#" class="button special">Par défaut</a></li>
+	<li><a href="#" class="button">Par défaut</a></li>
 </ul>
 <ul class="actions vertical">
-	<li><a href="#" class="button special">Default</a></li>
-	<li><a href="#" class="button">Default</a></li>
+	<li><a href="#" class="button special">Défaut</a></li>
+	<li><a href="#" class="button">Défaut</a></li>
 </ul>
-								
-<h3 class="major">Table</h3>
-#### Default
 
-| Tables        | Are           | Cool  |
+<h3 class="major">Tableau</h3>
+#### Par défaut
+
+| Les tableaux  | Sont          | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
+| col 3 est     | alignée à droite | $1600 |
+| col 2 est     | centrée       |   $12 |
 | zebra stripes | are neat      |    $1 |
 
 <div class="table-wrapper">
 	<table>
 		<thead>
 			<tr>
-				<th>Name</th>
+				<th>Nom</th>
 				<th>Description</th>
-				<th>Price</th>
+				<th>Prix</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>Item One</td>
+				<td>Item Un</td>
 				<td>Ante turpis integer aliquet porttitor.</td>
 				<td>29.99</td>
 			</tr>
@@ -133,7 +151,7 @@ Finally, [this is a link to a markdown cheatsheet](https://beegit.com/markdown-c
 	</table>
 </div>
 
-<h4>Alternate</h4>
+<h4>Alternative</h4>
 <div class="table-wrapper">
 	<table class="alt">
 		<thead>
@@ -178,10 +196,10 @@ Finally, [this is a link to a markdown cheatsheet](https://beegit.com/markdown-c
 		</tfoot>
 	</table>
 </div>
-								
 
-								
-<h3 class="major">Buttons</h3>
+
+
+<h3 class="major">Boutons</h3>
 <ul class="actions">
 	<li><a href="#" class="button special">Special</a></li>
 	<li><a href="#" class="button">Default</a></li>
@@ -198,17 +216,17 @@ Finally, [this is a link to a markdown cheatsheet](https://beegit.com/markdown-c
 	<li><span class="button special disabled">Disabled</span></li>
 	<li><span class="button disabled">Disabled</span></li>
 </ul>
-								
 
-								
-<h3 class="major">Form</h3>
+
+
+<h3 class="major">Formulaire</h3>
 <form method="post" action="#">
 	<div class="field half first">
-		<label for="demo-name">Name</label>
-		<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+		<label for="demo-name">Nom</label>
+		<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jean Dupont" />
 	</div>
 	<div class="field half">
-		<label for="demo-email">Email</label>
+		<label for="demo-email">E-mail</label>
 		<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
 	</div>
 	<div class="field">
@@ -248,4 +266,3 @@ Finally, [this is a link to a markdown cheatsheet](https://beegit.com/markdown-c
 		<li><input type="reset" value="Reset" /></li>
 	</ul>
 </form>
-								

@@ -1,16 +1,15 @@
 baseurl = "http://example.org"
-title = "Dimension"
+title = "Rogue Productions"
 theme = "dimension"
-languageCode = "en-us"
-defaultContentLanguage = "en"
+languageCode = "fr-fr"
+defaultContentLanguage = "fr"
 enableRobotsTXT = true
 disableRSS = true
 
 [params]
-  title = "Dimension"
-  description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
-                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
-  logo = "fa-diamond"
+  title = "Rogue Productions"
+  description = "mécaniciens de l'immatériel"
+  logo = "fa-space-shuttle"
   copyright = "Untitled"
 
 [[params.social]]
@@ -34,14 +33,14 @@ disableRSS = true
   link = "#"
 
 [languages]
+[languages.fr]
+languageName = "Français"
+weight = 1
+title = "Rogue Productions"
+
 [languages.en]
 languageName = "English"
-weight = 1
-title = "Dimension"
-
-[languages.de]
-languageName = "Deutsch"
 weight = 2
-title = "Dimension"
-description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
-                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
+title = "Rogue Productions"
+description = '<!--[--> <!--]--><br />
+                <!--[-->.<!--]-->'
